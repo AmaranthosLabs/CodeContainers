@@ -1,0 +1,28 @@
+{
+	"name": "NixOS 19.09 Container",
+	"dockerFile": "Dockerfile",
+
+    // Set *default* container specific settings.json values on container create.
+    // for nix (and most posix) this is a symlink
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/sh"
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"spencer-farley.xunitsnippets",
+		"amillard98.specflow-tools",
+		"yzhang.markdown-all-in-one",
+		"yzane.markdown-pdf"
+	]
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [3000],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "cd ${input:projectName} && bundle install",
+
+	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+	// "remoteUser": "vscode"
+
+}
