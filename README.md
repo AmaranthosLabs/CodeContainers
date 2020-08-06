@@ -12,5 +12,4 @@
 - Jekyll
 - SpecFlow
 
-Most containers are NixOS but some work better in other distros.
-[Link](https://nixos.org)
+Most containers are [NixOS](https://nixos.org) but some work better in other distros.
