@@ -1,5 +1,5 @@
 {
-	"name": "Haskell",
+	"name": "Haskell on Debian",
 	"dockerFile": "Dockerfile",
 
 	// Set *default* container specific settings.json values on container create.
@@ -12,7 +12,10 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"justusadam.language-haskell"
+		"haskell.haskell",
+		"eriksik2.vscode-ghci",
+		"heaths.vscode-guid",
+		"jcanero.hoogle-vscode"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
